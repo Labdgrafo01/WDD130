@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.left-side {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.left-side img {
+    max-width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cherries-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.right-side {
+    background-color: lightgray;
+    width: 50%;
+}
