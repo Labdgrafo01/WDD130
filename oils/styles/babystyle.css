@@ -53,7 +53,7 @@ nav a {
     text-align: center;
     color: #333;
     padding: 80px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -66,7 +66,10 @@ header {
     grid-template-columns: 150px auto;
     
 }
+h1{
+    text-align: center;
 
+}
 /* Estilos para el título de la página */
 h2 {
     text-align: center;
@@ -82,7 +85,7 @@ body {
 
 footer {
     text-decoration: none;
-    background-color: #a578a1;
+    background-color: #ffffff;
     text-align: center;
     font-family: 'Ubuntu', 'Red Hat Display', sans-serif;
     padding: 25px 50px;
