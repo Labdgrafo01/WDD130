@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Comfortaa:wght@300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: left;
+    margin: right;
+    } 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background-color: #ebc3fa;
+    border: 1px solid #a578a1;
+    padding: 35px;
+    
+}
+
+/* Estilos para los elementos de la cuadrícula de contenido */
+.grid-item {
+    font-family: 'Caveat', 'Comfortaa', sans-serif;
+    background-color: #ebc3fa;
+    border: 1px solid #a578a1;
+    padding: 10px;
+}
+
+/* Estilos para los enlaces de navegación */
+nav {
+    display: flex;
+    justify-content: space-around;
+} 
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#logo_image{
+    .logo {
+        max-width: 200px; 
+        height: auto; 
+    }
+}
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    padding: 80px;
+    font-size: 30px;
+}
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ffffff ;
+    max-width: center;
+    color: #000000;
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+}
+
+/* Estilos para el título de la página */
+h2 {
+    text-align: center;
+}
+
+/* Estilos para el cuerpo del sitio */
+body {
+    font-family: 'Comfortaa', 'Caveat', sans-serif;
+    background-color: #a578a1 ;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-decoration: none;
+    background-color: #a578a1;
+    text-align: center;
+    font-family: 'Ubuntu', 'Red Hat Display', sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer a{
+    text-decoration: none;
+
+}
+footer p {
+font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img  {
+    padding-top: 15px;
+}

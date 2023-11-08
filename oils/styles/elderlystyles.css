@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Comfortaa:wght@300&display=swap');
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Estilos para los elementos de la cuadrícula de contenido */
+.grid-item {
+    font-family: 'Caveat', 'Comfortaa', sans-serif;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Estilos para los enlaces de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el título de la página */
+h2 {
+    text-align: center;
+}
+
+/* Estilos para el cuerpo del sitio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
