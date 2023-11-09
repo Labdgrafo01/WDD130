@@ -6,42 +6,66 @@
     grid-template-rows: repeat(9, 1fr);
     gap: 10px;
     padding: 20px;
+    width: 100%;
 }
 
 /* Estilos para los elementos de la cuadrícula de contenido */
 .grid-item {
     font-family: 'Caveat', 'Comfortaa', sans-serif;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    background-color: #ebc3fa;
+    border: 1px solid #a578a1;
     padding: 10px;
+    width: 100%;
 }
 
-#logo_image {
-    max-width: 200px; 
+#logo_image img.logo {
+    width: 200px;
     height: auto; 
-}
+  }
 
 /* Estilos para los enlaces de navegación */
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}  
+
 nav ul {
     list-style: none;
     padding: 0;
+    width: 100%;
 }
 
 nav li {
     margin-bottom: 10px;
+    width: 100%;
 }
 
 nav a {
     text-decoration: none;
+    text-align: center;
     color: #333;
+    padding: 80px;
+    font-size: 30px;
+    width: 100%;
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    background-color: #ffffff ;
+    
+    color: #000000;
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: 100%;
+    
+}
+h1 {
+    background-color: #ebc3fa;
+    font-size: larger;
+    padding: 30;
+    text-align: justify;
+    width: 100%;
 }
 
 /* Estilos para el título de la página */
