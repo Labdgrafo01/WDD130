@@ -38,12 +38,11 @@ nav ul {
     padding: 0;
 }
 
-#logo_image{
-    .logo {
-        max-width: 200px; 
-        height: auto; 
-    }
-}
+#logo_image img.logo {
+    width: 200px;
+    height: auto; 
+  }
+
 nav li {
     margin-bottom: 10px;
 }

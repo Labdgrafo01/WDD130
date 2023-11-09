@@ -16,6 +16,11 @@
     padding: 10px;
 }
 
+#logo_image {
+    max-width: 200px; 
+    height: auto; 
+}
+
 /* Estilos para los enlaces de navegación */
 nav ul {
     list-style: none;
