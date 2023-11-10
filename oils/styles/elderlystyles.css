@@ -13,7 +13,7 @@
 .grid-item {
     font-family: 'Caveat', 'Comfortaa', sans-serif;
     background-color: #ebc3fa;
-    border: 1px solid #a578a1;
+    
     padding: 10px;
     width: 100%;
 }
@@ -90,9 +90,36 @@ h3 {
 
 body {
     font-family: 'Comfortaa', 'Caveat', sans-serif;
-    background-color: #a578a1 ;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+}
+footer {
+    text-decoration: none;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Comfortaa', 'Caveat', sans-serif;
+    padding: 25px 50px;
+    margin-top: 20px; /* Ajusta según tus necesidades */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
