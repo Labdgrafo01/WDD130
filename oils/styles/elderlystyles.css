@@ -75,11 +75,19 @@ h1 {
 
 /* Estilos para el título de la página */
 h2 {
+    
     text-align: justify;
     padding: 10px;
 }
+h3 {
+    text-align: justify;
+    background-color: #ebc3fa;
+    padding: 10px;
+  
+}
 
 /* Estilos para el cuerpo del sitio */
+
 body {
     font-family: 'Comfortaa', 'Caveat', sans-serif;
     background-color: #a578a1 ;
