@@ -12,11 +12,11 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(9, 1fr);
     gap: 10px;
-    padding: 20px;
     background-color: #ebc3fa;
     border: 1px solid #a578a1;
     padding: 35px;
-    
+    width: 100%;
+        
 }
 
 /* Estilos para los elementos de la cuadrícula de contenido */
@@ -25,6 +25,7 @@
     background-color: #ebc3fa;
     border: 1px solid #a578a1;
     padding: 10px;
+    width: 100%;
 }
 
 /* Estilos para los enlaces de navegación */
@@ -80,6 +81,7 @@ body {
     background-color: #a578a1 ;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 footer {

@@ -2,11 +2,11 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
     padding: 20px;
-    width: 100%;
+    width: 90%; /* Ajustado para un ancho máximo */
+    margin: 0 auto; /* Centra el contenedor */
 }
 
 /* Estilos para los elementos de la cuadrícula de contenido */
@@ -19,16 +19,16 @@
 }
 
 #logo_image img.logo {
-    width: 200px;
-    height: auto; 
-  }
+    max-width: 100%;
+    height: auto;
+}
 
 /* Estilos para los enlaces de navegación */
 nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
-}  
+}
 
 nav ul {
     list-style: none;
@@ -38,44 +38,52 @@ nav ul {
 
 nav li {
     margin-bottom: 10px;
-    width: 100%;
 }
+
+#logo_image img.logo {
+    width: 200px;
+    height: auto; 
+  }
 
 nav a {
     text-decoration: none;
     text-align: center;
     color: #333;
-    padding: 80px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 16px; /* Ajusta el tamaño del texto */
     width: 100%;
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #ffffff ;
-    
+    background-color: #ffffff;
     color: #000000;
-    display: grid;
-    grid-template-columns: 150px auto;
-    width: 100%;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
+
 h1 {
     background-color: #ebc3fa;
-    font-size: larger;
-    padding: 30;
-    text-align: justify;
+    font-size: 1.5em; /* Ajusta el tamaño del texto */
+    padding: 10px;
+    text-align: center;
     width: 100%;
+    margin: 0;
 }
 
 /* Estilos para el título de la página */
 h2 {
-    text-align: center;
+    text-align: justify;
+    padding: 10px;
 }
 
 /* Estilos para el cuerpo del sitio */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comfortaa', 'Caveat', sans-serif;
+    background-color: #a578a1 ;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
