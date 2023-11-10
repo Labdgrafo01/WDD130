@@ -3,10 +3,11 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+    gap: 20px;
     padding: 20px;
-    width: 90%; /* Ajustado para un ancho máximo */
-    margin: 0 auto; /* Centra el contenedor */
+    width: 90%; 
+    margin: 0 auto; 
+    justify-content: space-between;
 }
 
 /* Estilos para los elementos de la cuadrícula de contenido */
@@ -84,6 +85,13 @@ h3 {
     background-color: #ebc3fa;
     padding: 10px;
   
+}
+
+h3 img{
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 10px auto; 
 }
 
 /* Estilos para el cuerpo del sitio */
