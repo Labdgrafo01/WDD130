@@ -64,6 +64,8 @@ header {
     color: #000000;
     display: grid;
     grid-template-columns: 150px auto;
+    padding: 10px;
+    width: 100%;
     
 }
 h1{
@@ -79,9 +81,9 @@ h2 {
 body {
     font-family: 'Comfortaa', 'Caveat', sans-serif;
     background-color: #a578a1 ;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
 }
 
 footer {
