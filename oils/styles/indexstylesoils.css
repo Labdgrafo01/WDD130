@@ -232,14 +232,14 @@
             margin: 50px 0;
 
         }
-        .rapids-card  {
+        .internal  {
             margin: 50px 0;
             grid-column: 8/10;
             grid-row: 2/3;
         }
 
 
-        .camping-card {
+        .topic {
             margin: 50px 0;
             grid-column: 5/7;
             grid-row: 2/3;

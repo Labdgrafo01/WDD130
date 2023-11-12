@@ -9,6 +9,23 @@ body {
     width: 100%;
 }
 
+.home-grid{
+    margin: 50px 0;
+
+}
+.aromatic {
+    margin: 50px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+
+.topic {
+    margin: 50px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -84,6 +101,9 @@ h1 {
 h2 {
     text-align: justify;
     padding: 10px;
+    margin: 0;
+    font-size: 3em
+    
 }
 footer {
     text-decoration: none;
