@@ -142,6 +142,13 @@
             
         }
        
+       .h4 p{
+        width: 100%;
+        font-family: 'Caveat','Comfortaa',  sans-serif;
+        padding: 30px;
+        align-content: center
+       }
+
         .card-img {
             width: 100%;
             border: 10px solid #ebc3fa;
@@ -252,6 +259,9 @@
             margin: 50px 0;
             grid-column: 8/10;
             grid-row: 2/3;
+            text-align: center;
+            padding: 50px 0;
+            font-family: 'Comfortaa', 'Caveat', sans-serif;
         }
 
 
@@ -259,6 +269,9 @@
             margin: 50px 0;
             grid-column: 5/7;
             grid-row: 2/3;
+            text-align: center;
+            padding: 50px 0;
+            font-family: 'Comfortaa', 'Caveat', sans-serif;
         }
 
 
@@ -266,6 +279,9 @@
             margin: 50px 0;
             grid-column: 2/4;
             grid-row: 2/3;
+            text-align: center;
+            padding: 50px 0;
+            font-family: 'Comfortaa', 'Caveat', sans-serif;
         }
 
 
