@@ -18,11 +18,11 @@
     padding: 10px;
     width: 100%;
 }
-
-#logo_image img.logo {
-    max-width: 100%;
-    height: auto;
+#hero {
+    width: 100%;
 }
+
+
 
 /* Estilos para los enlaces de navegación */
 nav {
@@ -104,6 +104,7 @@ body {
     box-sizing: border-box;
     width: 100%;
 }
+
 footer {
     text-decoration: none;
     background-color: #ffffff;
