@@ -103,11 +103,15 @@ h4{
 }
 
 .card-img {
+
     width: 100%;
     border: 10px solid #ebc3fa;
     box-shadow: 5px 5px 10px #000000;
 
 }
+
+
+
 /* Estilos para el cuerpo del sitio */
 
 body {
