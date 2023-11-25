@@ -20,6 +20,11 @@
             margin:0;
         }
 
+        p {
+            text-align: justify;
+            size: 12px;
+        }
+
         main {
             display: grid;
             grid-template-columns: repeat(10, 1fr);
