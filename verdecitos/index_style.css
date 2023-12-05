@@ -93,7 +93,7 @@
             text-decoration: none;
             text-align: center;
             color: #F3E595;
-            padding: 10px;
+            padding: 100px;
             font-size: 16px; /* Ajusta el tamaño del texto */
             font-family: 'Roboto', sans-serif;
             width: 100%;
@@ -235,7 +235,7 @@
             box-sizing: border-box;
         }  
 
-        .mountains {
+        .beneficios {
             width: 100%;
             grid-column: 2/7;
             grid-row: 5/8;
