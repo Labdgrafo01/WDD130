@@ -3593,7 +3593,7 @@ tbody.collapse.show {
     min-width: 0;
     word-wrap: break-word;
     color: #08181e;
-    background-color: #fff;
+    background-color: #08181e;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem
