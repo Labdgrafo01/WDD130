@@ -2,16 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Roboto&display=swap');
 
         
-        #content {
+        .content {
             max-width: 1600px;
             margin: 0 auto;
             width: left;
             margin: right;
         } 
 
-
         body {
-             background-color: #0D170A;
+             background-color: #05141A;
              font-size: 22px;
              margin: 0;
              padding: 0; 
@@ -38,7 +37,7 @@
 
         header {
             max-width: center;
-            background: color #0D170A; ;
+            background: color #0D170A; 
             color: white;
             display: flex;
             grid-template-columns: 100px auto;
@@ -71,7 +70,7 @@
 
         .logo {
             display: flex;
-            width: 150px;
+            width: 300px;
             padding: 25px;
             justify-self: center;
             align-self: center;
@@ -102,7 +101,7 @@
 
         nav a:hover {
             text-decoration: none;
-            background-color: #0D170A;
+            background-color: #05141A;
             color: #FFFFFF;
         }    
            
@@ -133,7 +132,7 @@
         #hero-msg h1,#hero-msg h4 {
            
             text-align: center;
-            color: #0D170A;
+            color: #05141A;
            
         }
        
@@ -153,7 +152,7 @@
 
         
         .button-box {
-            background-color: #0d111f;
+            background-color: #05141A;
             text-align: center;
             
         }
@@ -179,7 +178,7 @@
 
 
         .join {
-            color:#0D170A;
+            color:#05141A;
             font-family: 'Roboto', sans-serif;
             font-size: 18px;
             padding: 15px 30px;
@@ -202,7 +201,7 @@
         }
         .msg {
             background-color: #BB6D29;
-            color: #0D170A;
+            color: #05141A;
             text-align: center;
             align-self: center;
             font-family: 'Roboto', sans-serif;
@@ -215,6 +214,7 @@
         }
         .msg h2 {
             font-family: 'Roboto', sans-serif;
+            line-height: 1.5em;
         }
 
         
@@ -271,6 +271,9 @@
             color:#F3E595;
             font-family: 'Roboto', sans-serif;
         }
+
+
+       
 
 
         footer {
