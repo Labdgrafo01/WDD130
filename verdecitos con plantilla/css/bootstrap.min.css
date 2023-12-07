@@ -3581,10 +3581,13 @@ tbody.collapse.show {
 .navbar-dark .navbar-text {
     color: rgba(255,255,255,.5)
 }
+.text-hccas {
+    padding: 20px;
+}
+
 
 .card {
     position: relative;
-    padding: 20px;
     text-align: justify;
     display: -ms-flexbox;
     display: flex;
