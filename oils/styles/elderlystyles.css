@@ -11,13 +11,14 @@
 }
 
 /* Estilos para los elementos de la cuadrícula de contenido */
-.grid-item {
+.grid-uses {
     font-family: 'Caveat', 'Comfortaa', sans-serif;
-    background-color: #ebc3fa;
-    
-    padding: 10px;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
 }
+
 #hero {
     width: 100%;
 }
@@ -104,9 +105,9 @@ h4{
 
 .card-img {
 
-    width: 100%;
+    width: 300PX;
+    height: 200PX;
     border: 10px solid #ebc3fa;
-    box-shadow: 5px 5px 10px #000000;
 
 }
 
@@ -116,16 +117,14 @@ h4{
 
 body {
     font-family: 'Comfortaa', 'Caveat', sans-serif;
-    display: block;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 10;
     width: 100%;
 }
 
 footer {
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #ebc3fa;
     text-align: center;
     font-family: 'Comfortaa', 'Caveat', sans-serif;
     padding: 25px 50px;
