@@ -194,7 +194,8 @@
         .card-img {
             width: 100%;
             border: 10px solid #ebc3fa;
-            
+            width: 300px;
+            height: 200px;
             box-shadow: 5px 5px 10px #000000;
         
         }
@@ -304,6 +305,8 @@
             text-align: center;
             padding: 50px 0;
             font-family: 'Comfortaa', 'Caveat', sans-serif;
+            width: 300px;
+            height: 200px;
         }
 
 
@@ -314,6 +317,8 @@
             text-align: center;
             padding: 50px 0;
             font-family: 'Comfortaa', 'Caveat', sans-serif;
+            width: 300px;
+            height: 200px;
         }
 
 
@@ -324,6 +329,8 @@
             text-align: center;
             padding: 50px 0;
             font-family: 'Comfortaa', 'Caveat', sans-serif;
+            width: 300px;
+            height: 200px;
         }
 
 
