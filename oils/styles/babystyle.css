@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Comfortaa:wght@300&display=swap');
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: left;
+    background-color: white;
+    }
+    
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
+    margin: 20px;
     width: 90%; 
     margin: 0 auto; 
     justify-content: space-between;
+    background-color: #ffffff;
 }
 
 /* Estilos para los elementos de la cuadrícula de contenido */
@@ -53,6 +62,10 @@ nav li {
     margin-bottom: 10px;
 }
 
+.logo{
+    width: 100px;
+}
+
 #logo_image img.logo {
     width: 200px;
     height: auto; 
@@ -71,10 +84,9 @@ nav a {
 header {
     background-color: #ffffff;
     color: #000000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 125px;
 }
 
 h1 {
