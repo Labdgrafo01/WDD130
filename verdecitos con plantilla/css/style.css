@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5,
   font-weight: normal;
   color: #f1cb4e; }
 
+  .link-ecocity {
+    text-decoration: underline;
+  }
+  
 .text-primary {
   color: #1D692C !important; }
 
