@@ -245,7 +245,7 @@ grid-row: 6/7;
 box-shadow: 5px 5px 10px #000000;
 }
 .msg h2 {
-font-family: 'Comfortaa', 'Caveat', sans-serif;
+    font-family: 'Comfortaa', 'Caveat', sans-serif;
 }
 
 
@@ -262,7 +262,6 @@ grid-gap: 20px;
 height: 1400px;
 margin-top: 80px;
 margin-left: 120px;
-background-color: #FFFFFF;
 
 }
 .headline1 {
@@ -350,8 +349,6 @@ text-align: center;
 .headlinetext {
 grid-column: 1/span 4;
 grid-row: 8/9;
-background-color: #FFFFFF;
-padding: 20px;
 }
 .grid-container3 {
 display: grid;
