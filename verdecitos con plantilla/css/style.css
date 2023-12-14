@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5,
   .link-ecocity {
     text-decoration: underline;
   }
-  
+
 .text-primary {
   color: #1D692C !important; }
 
@@ -498,7 +498,8 @@ textarea {
 
 .probootstrap-animate {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+text-align: center; }
 
 #probootstrap-loader {
   position: fixed;
