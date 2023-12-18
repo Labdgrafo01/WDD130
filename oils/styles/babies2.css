@@ -262,13 +262,17 @@ grid-gap: 20px;
 height: 1400px;
 margin-top: 80px;
 margin-left: 120px;
+font-family: 'Comfortaa', 'Caveat', sans-serif;
 
 }
 .headline1 {
 grid-column: 1/span 5;
 grid-row: 1/2;
 text-align: center;
+background-color: #6EA563;
+font-family:'Caveat', 'Comfortaa',  sans-serif;
 }
+
 .basil {
 grid-column: 1/2;
 grid-row: 2/3;
@@ -325,6 +329,7 @@ align-self: center;
 }
 .topic1 img {
 width: 100%;
+border: 10px solid #ebc3fa;
 
 }
 .aromatic1 {
@@ -335,9 +340,9 @@ align-self: center;
 }
 .aromatic1 img {
 width: 100%;
-
-
+border: 10px solid #ebc3fa;
 }
+
 .headline2 {
 grid-column: 1/span 4;
 grid-row: 7/8
@@ -348,7 +353,8 @@ text-align: center;
 
 .headlinetext {
 grid-column: 1/span 4;
-grid-row: 8/9;
+grid-row: 7/8;
+
 }
 .grid-container3 {
 display: grid;
