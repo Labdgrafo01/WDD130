@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 
-/* Estilos para los elementos de la cuadrícula de contenido */
+
 .grid-uses {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -30,7 +30,7 @@
    
     width: 300PX;
     height: 200PX;
-    border: 10px solid #ebc3fa;
+    border: 10px solid #6EA563;
 }
 
 .image-aromatic{
@@ -39,7 +39,7 @@
     
     width: 300PX;
     height: 200PX;
-    border: 10px solid #ebc3fa;
+    border: 10px solid #6EA563;
 }
 
 .image-internal{
@@ -48,7 +48,7 @@
     
     width: 300PX;
     height: 200PX;
-    border: 10px solid #ebc3fa;
+    border: 10px solid #6EA563;
 }
 
 #hero {
@@ -137,7 +137,7 @@ nav a {
     text-align: center;
     color: #333;
     padding: 10px;
-    font-size: 16px; /* Ajusta el tamaño del texto */
+    font-size: 16px; 
     width: 100%;
 }
 
@@ -162,19 +162,23 @@ header {
 
 h1 {
    
-    font-size: 1.5em; /* Ajusta el tamaño del texto */
+    font-size: 1.5em; 
     padding: 10px;
     text-align: center;
     width: 100%;
     margin: 10px;
+    background-color: #6EA563;
 }
 
 /* Estilos para el título de la página */
 h2 {
-    font-size: 16px;
+    font-size: 30px;
     text-align: justify;
     align-items: center;
     padding: 10px;
+    color: #6EA563;
+    font-family: 'Caveat', 'Comfortaa',  sans-serif;
+
 }
 
 h3 {
@@ -190,7 +194,7 @@ h4{
     height: auto;
 }
 
-/* Estilos para el cuerpo del sitio */
+
 
 
 
