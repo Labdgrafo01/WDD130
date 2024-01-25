@@ -5606,7 +5606,7 @@ a.bg-dark:focus,a.bg-dark:hover {
 
 .justify-content-center {
     -ms-flex-pack: center!important;
-    justify-content: center!important
+    justify-content:center!important
 }
 
 .justify-content-between {
