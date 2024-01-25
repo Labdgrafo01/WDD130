@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5,
       -moz-columns: 1;
       columns: 1; } }
   .probootstrap-main .card-columns .card {
-    background: #e6e6e6;
+    background: #fff;
     border: none;
     border-radius: 0px !important;
     margin-bottom: 20px;
