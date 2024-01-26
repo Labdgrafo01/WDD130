@@ -4,9 +4,10 @@ html {
 body {
   font-family: "Work Sans", sans-serif;
   line-height: 1.8;
-  font-size: 16px;
+  font-size: 14px;
+  text-align: justify;
   background: #fff;
-  color: #859196; }
+  color: #000000; }
   
 
 a {
@@ -21,7 +22,9 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  line-height: 1.45;
+  line-height: 1.00;
+  font-size: 20px;
+  text-align:center;
   font-weight: normal;
   color: #f1cb4e; }
 
@@ -34,7 +37,7 @@ h1, h2, h3, h4, h5,
 
 .probootstrap-aside {
   height: 100vh;
-  width: 250px;
+  width: 270px;
   position: fixed;
   top: 0;
   float: left;
@@ -500,7 +503,7 @@ textarea {
 .probootstrap-animate {
   opacity: 0;
   visibility: hidden;
-text-align: center; }
+text-align: justify; }
 
 #probootstrap-loader {
   position: fixed;

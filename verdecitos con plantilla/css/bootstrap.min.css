@@ -114,7 +114,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     
     
 }
@@ -242,7 +242,7 @@ table {
 }
 
 caption {
-    padding-top: .75rem;
+    padding-top: .25rem;
     padding-bottom: .75rem;
     color: #868e96;
     text-align: left;
@@ -622,6 +622,7 @@ pre code {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
+    
 }
 
 .col {
