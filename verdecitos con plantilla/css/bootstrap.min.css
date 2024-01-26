@@ -621,7 +621,8 @@ pre code {
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    line-height: 1.1;
     
 }
 
@@ -6455,7 +6456,8 @@ a.bg-dark:focus,a.bg-dark:hover {
 }
 
 .mt-0 {
-    margin-top: 0!important
+    margin-top: 0!important;
+   
 }
 
 .mr-0 {
@@ -6553,7 +6555,8 @@ a.bg-dark:focus,a.bg-dark:hover {
 }
 
 .mb-3 {
-    margin-bottom: 1rem!important
+    margin-bottom: 1rem!important;
+    
 }
 
 .ml-3 {
@@ -6613,7 +6616,7 @@ a.bg-dark:focus,a.bg-dark:hover {
 }
 
 .mb-5 {
-    margin-bottom: 3rem!important
+    margin-bottom: 1rem!important
 }
 
 .ml-5 {
