@@ -226,7 +226,9 @@ figure {
 
 img {
     vertical-align: middle;
-    border-style: none
+    border-style: none;
+    width: 100%;
+    height: auto;
 }
 
 svg:not(:root) {
@@ -246,12 +248,12 @@ caption {
     padding-top: .25rem;
     padding-bottom: .75rem;
     color: #868e96;
-    text-align: left;
+    text-align: justify;
     caption-side: bottom
 }
 
 th {
-    text-align: left
+    text-align: justify
 }
 
 label {
@@ -624,6 +626,7 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     line-height: 1.1;
+    
 }
 
 .col {
@@ -8426,7 +8429,7 @@ a.bg-dark:focus,a.bg-dark:hover {
 }
 
 .text-left {
-    text-align: left!important
+    text-align: justify!important
 }
 
 .text-right {
