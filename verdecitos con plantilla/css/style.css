@@ -77,8 +77,9 @@ a {
     
     div.desc {
       padding: 3px;
-      text-align: left;
+      text-align: center;
       min-height: .5px;
+      font-size: 12px;
     }
     
     * {
