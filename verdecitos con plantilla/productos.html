@@ -105,7 +105,7 @@
                     <h5 class="mt-0">Pasto de Trigo</h5>
                     <img src="images/prod_pasto_trigo.png" alt="pasto">
                     <p>$135.00 mxn  .650g / 90 charolas en Stock. </p>
-<!-- Trigger/Open The Modal -->
+                   <!-- Trigger/Open The Modal -->
 <button id="BtnPasto">Saber más</button>
 
 <!-- The Modal -->
@@ -454,30 +454,30 @@
       }
       </script>  
     <script>// Get the modal
-      var modal = document.getElementById("ModalPasto");
-      
-      // Get the button that opens the modal
-      var btn = document.getElementById("BtnPasto");
-      
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-      
-      // When the user clicks on the button, open the modal
-      btn.onclick = function() {
-        modal.style.display = "block";
-      }
-      
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
+    var modal = document.getElementById("ModalPasto");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("BtnPasto");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
         modal.style.display = "none";
       }
-      
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
-      }
-      </script>
+    }
+    </script>
 </body>
 </html>

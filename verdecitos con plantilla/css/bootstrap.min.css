@@ -69,8 +69,8 @@ html {
     box-sizing: border-box;
     font-family: sans-serif;
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 120%;
+    -ms-text-size-adjust: 120%;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent
 }
@@ -116,8 +116,6 @@ h1,h2,h3,h4,h5,h6 {
 p {
     margin-top: 0;
     margin-bottom: .5rem;
-    
-    
 }
 
 abbr[data-original-title],abbr[title] {
@@ -607,7 +605,7 @@ pre code {
     flex-wrap: wrap;
     margin-right: 15px;
     margin-left: 15px;
-    padding: 15px;
+
 }
 
 .no-gutters {
