@@ -82,7 +82,7 @@ hr {
 .logo__img {
     fill: var(--color-tres);
     height: auto;
-    max-width: 67%;
+    max-width: 150%;
     vertical-align: middle;
 }
 
@@ -341,7 +341,7 @@ hr {
 /* --- Encabezado con nombre del proyecto --- */
 .card {
     align-items: center;
-    background: linear-gradient(45deg, rgba(245, 172, 85, 1) 15%, rgba(242, 151, 43, 1) 15%, rgba(240, 130, 0, 1) 85%, rgba(200, 108, 0, 1) 15%);
+    background: linear-gradient(45deg, rgba(55,121,42) 15%, rgba(49,106,37) 15%, rgba(42,91,32 ) 85%, rgba(23, 64, 23) 15%);
     border-radius: 0;
     border-style: none;
     border-width: 0;
